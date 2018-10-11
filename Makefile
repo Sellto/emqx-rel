@@ -35,7 +35,7 @@ dep_emqx_auth_jwt      = git https://github.com/emqx/emqx-auth-jwt emqx30
 # mqtt-sn, coap and stomp
 dep_emqx_sn    = git https://github.com/emqx/emqx-sn emqx30
 dep_emqx_coap  = git https://github.com/emqx/emqx-coap emqx30
-dep_emqx_lwm2m = git https://github.com/emqx/emqx-lwm2m emqx30_shawn
+dep_emqx_lwm2m = git https://github.com/sellto/emqx-lwm2m master
 dep_emqx_stomp = git https://github.com/emqx/emqx-stomp emqx30
 
 # plugin template
@@ -58,7 +58,7 @@ OTP_21_OR_NEWER:
 
 # Compile options
 ERLC_OPTS += +warn_export_all +warn_missing_spec +warn_untyped_record
-
+emqx_coap
 plugins:
 	@rm -rf rel
 	@mkdir -p rel/conf/plugins/ rel/schema/
