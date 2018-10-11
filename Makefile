@@ -58,7 +58,7 @@ OTP_21_OR_NEWER:
 
 # Compile options
 ERLC_OPTS += +warn_export_all +warn_missing_spec +warn_untyped_record
-emqx_coap
+
 plugins:
 	@rm -rf rel
 	@mkdir -p rel/conf/plugins/ rel/schema/
