@@ -35,7 +35,7 @@ dep_emqx_auth_jwt      = git https://github.com/emqx/emqx-auth-jwt emqx30
 # mqtt-sn, coap and stomp
 dep_emqx_sn    = git https://github.com/emqx/emqx-sn emqx30
 dep_emqx_coap  = git https://github.com/emqx/emqx-coap dmp
-dep_emqx_lwm2m = git https://github.com/sellto/emqx-lwm2m dmp
+dep_emqx_lwm2m = git https://github.com/emqx/emqx-lwm2m dmp
 dep_emqx_stomp = git https://github.com/emqx/emqx-stomp emqx30
 
 # plugin template
